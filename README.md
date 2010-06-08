@@ -2,6 +2,7 @@
 
 ### Prerrequisitos ###
 Para ejecutar esta aplicación es necesario poseer instalado:
+
 * Java JDK 5 o superior
 * Maven 2
 * CouchDB
