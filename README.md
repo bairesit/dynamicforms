@@ -7,12 +7,12 @@ Para ejecutar esta aplicación es necesario poseer instalado:
 * CouchDB
 
 ### Ejecucion de la aplicación ###
-# Crear la base de datos "form" en CouchDB, e insertar un documento con la definición inputEx del formulario. No olvidar dejar un campo "_id" colocado automáticamente por CouchDB.
-# Una vez inicializada la base de datos CouchDB con los datos del formulario, ejecutar la aplicación con:
-  mvn clean jetty:run
+* Crear la base de datos "form" en CouchDB, e insertar un documento con la definición inputEx del formulario. No olvidar dejar un campo "_id" colocado automáticamente por CouchDB.
+* Una vez inicializada la base de datos CouchDB con los datos del formulario, ejecutar la aplicación con:
+	mvn clean jetty:run
 
 Acceder a la página JSP mediante:
-  http://localhost:8080/dynamicforms/app/form/{id}
+	http://localhost:8080/dynamicforms/app/form/{id}
 
 donde {id} debe reemplazarse por el valor del campo _id de CouchDB para el formulario.
 
@@ -25,6 +25,6 @@ Finalmente, es posible modificar la base de datos CouchDB, hacer refresh de la p
 * Página de YUI Library: http://developer.yahoo.com/yui/
 
 ### Autor ###
-Santiago Fernandez
-BAIRES IT - www.bairesit.com
+
+Santiago Fernandez - BAIRES IT (www.bairesit.com)
 
