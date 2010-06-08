@@ -60,7 +60,7 @@
 <script type="text/javascript">
 	var formDef = ${formDefinition};
 	formDef.parentEl = 'formContainer';
-	YAHOO.util.Event.onDOMReady(function(){ new inputEx.Group(formDef); });
+	YAHOO.util.Event.onDOMReady(function(){ new inputEx.Form(formDef); });
 </script>
 </body>
 </html>
